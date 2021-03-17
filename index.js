@@ -1,4 +1,3 @@
-const functions = require("firebase-functions");
 const express = require("express");
 const cors = require("cors");
 const stripe = require("stripe")(
@@ -34,7 +33,8 @@ app.post("/payments/create", async (request, response) => {
 });
 
 // - Listen command
-exports.api = functions.https.onRequest(app);
+
+app.listen( 8000, () => console.log( `The application is listening on port 8000!` ) );
 
 // Example endpoint
 // http://localhost:5001/challenge-4b2b2/us-central1/api
