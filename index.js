@@ -34,7 +34,7 @@ app.post("/payments/create", async (request, response) => {
 
 // - Listen command
 
-app.listen( 5000, () => console.log( `The application is listening on port 8000!` ) );
+app.listen( process.env.PORT || 5000, () => console.log( `The application is listening on port 8000!` ) );
 
 // Example endpoint
 // http://localhost:5001/challenge-4b2b2/us-central1/api
