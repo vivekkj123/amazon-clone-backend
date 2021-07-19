@@ -15,7 +15,7 @@
     "stripe": "^8.160.0"
   },
   "devDependencies": {
-    "eslint": "^7.30.0",
+    "eslint": "^7.31.0",
     "eslint-plugin-promise": "^5.1.0"
   },
   "private": true
