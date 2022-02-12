@@ -12,7 +12,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.2",
-    "stripe": "^8.201.0"
+    "stripe": "^8.202.0"
   },
   "devDependencies": {
     "eslint": "^8.8.0",
