@@ -11,7 +11,7 @@
   "main": "index.js",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.2",
+    "express": "^4.17.3",
     "stripe": "^8.203.0"
   },
   "devDependencies": {
