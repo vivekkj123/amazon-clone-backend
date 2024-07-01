@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "eslint": "^9.5.0",
-    "eslint-plugin-promise": "^6.2.0"
+    "eslint-plugin-promise": "^6.4.0"
   },
   "private": true
 }
